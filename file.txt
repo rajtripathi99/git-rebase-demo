@@ -3,4 +3,8 @@ Another update on main branch.
 This is feature branch edit.
 This is foor stash
 stash pop
-master pop
+| Command       | What it does (in simple words)                                    | Changes history?   | Safe for shared repos?                |
+| ------------- | ----------------------------------------------------------------- | ------------------ | ------------------------------------- |
+| `git restore` | Undo changes in your working directory or staging area            | ❌ No               | ✅ Yes                                 |
+| `git revert`  | Creates a new commit that *undoes* a previous commit              | ✅ Yes (new commit) | ✅ Yes                                 |
+| `git reset`   | Moves HEAD/branch to a different commit (can also delete commits) | ✅ Yes              | 🚫 Be careful (destructive if pushed) |
