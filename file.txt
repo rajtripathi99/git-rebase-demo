@@ -3,3 +3,4 @@ Another update on main branch.
 This is feature branch edit.
 This is foor stash
 stash pop
+master pop
